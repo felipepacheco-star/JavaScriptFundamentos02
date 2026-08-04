@@ -58,9 +58,15 @@
 // }
 // console.log(`Soma fina e: ${soma}`)
 
-let numero = 1;
+// let numero = 1;
 
-while(numero <= 10){
-    console.log(numero);
-    numero++;
-}
+// while(numero <= 10){
+//     console.log(numero);
+//     numero++;
+// }
+
+let contador = 1;
+do{
+    console.log(contador);
+    contador++;
+} while ( contador <= 3);
